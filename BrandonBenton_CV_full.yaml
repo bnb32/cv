@@ -76,6 +76,39 @@ cv:
           - Led research on effect of heat anomalies injected into aquaplanet SSTs and surface fields on polar vortex.
           - Built custom compartmental infectious disease model including asymptomatic, symptomatic, hospitalization, and death projections for entire United States.
           - Updated and improved complex database of tree ring information from variety of disparate, obscure, and hard-to-access data sources.
+      - company: Independent Researcher
+        position: Data Scientist
+        date:
+        start_date: 2012-01
+        end_date: 2021-01
+        location: Ithaca, NY
+        summary:
+        highlights:
+          - "Designed and built working quadcopter with GPS-enabled navigation, remote control capability, and computer control interfaces."
+          - "Developed Twitch bot to filter offensive content in channels, achieving 98% success rate and currently in use on Twitch channel."
+      - company: Cornell University
+        position: Graduate Teaching Assistant
+        date:
+        start_date: 2012-01
+        end_date: 2019-01
+        location: Ithaca, NY
+        summary:
+        highlights:
+          - "Instructed classes in Climate & Energy, Computer Graphics, Numerical Analysis, and Fundamentals of Physics."
+          - "Prepared examinations and classroom materials."
+          - "Led class projects and lab sessions."
+      - company: Cornell University
+        position: PhD Researcher
+        date:
+        start_date: 2013-01
+        end_date: 2019-01
+        location: Ithaca, NY
+        summary:
+        highlights:
+          - "Designed and carried out research in areas of fluid dynamics, condensed matter, and climate science."
+          - "Developed and implemented numerical models to simulate complex physical systems."
+          - "Analyzed large datasets using statistical and machine learning techniques."
+          - "Published findings in peer-reviewed journals and presented at international conferences."
     Strengths:
       - label: High Performance Computing
         details: NCAR's Yellowstone/Cheyenne, NREL's Eagle/Kestrel, PBS, SLURM, Linux
@@ -89,7 +122,7 @@ cv:
         details: CMIP6, ERA5, HRRR, WRF, CESM
       - label: Mathematics
         details: Differential Equations, Statistics, Finite Difference Methods, Calculus, Linear Algebra
-    Highlighted Publications:
+    publications:
       - title: On the effectiveness of neural operators at zero-shot weather downscaling.
         journal: Environmental Data Science.
         date: April 2025
@@ -97,6 +130,19 @@ cv:
           - Saumya Sinha
           - Brandon Benton
           - Patrick Emami
+      - title: The influence of cloud cover on the reliability of satellite-based solar resource data
+        authors:
+          - Yu Xie
+          - Manajit Sengupta
+          - Jaemo Yang
+          - Aron Habte
+          - Grant Buster
+          - Brandon Benton
+          - Michael Foster
+          - Andrew Heidinger
+          - Yangang Liu
+        journal: Renewable and Sustainable Energy Reviews
+        date: Feb 2025
       - title: Potential effects of climate change and solar radiation modification on renewable energy resources
         authors:
           - Andrew Kumler
@@ -152,6 +198,54 @@ cv:
         journal: "Nature Energy"
         date: April 2024
         url: "https://doi.org/10.1038/s41560-024-01507-9"
+      - title: "Intrinsic Century-Scale Variability in Tropical Pacific SSTs and Their Influence on Western US Hydroclimate"
+        authors:
+          - Colin P Evans
+          - Sloan Coats
+          - Carlos M Carrillo
+          - Xiaolu Li
+          - Marc J Alessi
+          - Dimitris A Herrera
+          - Brandon N Benton
+          - Toby R Ault
+        journal: "Geophysical Research Letters"
+        date: Dec 2022
+      - title: "Minor Impacts of Major Volcanic Eruptions on Hurricanes in Dynamically-Downscaled Last Millennium Simulations"
+        authors:
+          - Brandon N Benton
+          - Marc J Alessi
+          - Dimitris A Herrera
+          - Xiaolu Li
+          - Carlos M Carrillo
+          - Toby R Ault
+        journal: "Climate Dynamics"
+        date: Sept 2022
+      - title: "Approximate Mean-Field Equations of Motion for Quasi-2D Bose-Einstein Condensate Systems"
+        authors:
+          - Mark Edwards
+          - Michael Krygier
+          - Hadayat Seddiqi
+          - Brandon Benton
+          - Charles W Clark
+        journal: "Physical Review E"
+        date: Nov 2012
+      - title: "Prototyping Method for Bragg-Type Atom Interferometers"
+        authors:
+          - Brandon Benton
+          - Michael Krygier
+          - Jeffrey Heward
+          - Mark Edwards
+          - Charles W Clark
+        journal: "Physical Review A"
+        date: Oct 2011
+      - title: "Momentum-Space Engineering of Gaseous Bose-Einstein Condensates"
+        authors:
+          - Mark Edwards
+          - Brandon Benton
+          - Jeffrey Heward
+          - Charles W Clark
+        journal: "Physical Review A"
+        date: March 2011
 design:
   theme: classic
   page:
