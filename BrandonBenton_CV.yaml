@@ -1,6 +1,5 @@
 cv:
   name: Brandon N. Benton, PhD
-  location: Seattle, WA, 98106
   email: brandon.benton@nrel.gov
   phone:
   website: https://bnb32.github.io
@@ -9,53 +8,58 @@ cv:
       username: brandonnbenton
     - network: GitHub
       username: bnb32
+    - network: Google Scholar
+      username: BrandonNBenton
   sections:
     summary:
-      - "Senior Software/Data Engineer at the National Renewable Energy Lab with a record of achievement in data science, machine learning, and scientific computing. Multiple publications and presentations relating to generative machine learning, renewable resource modeling, and earth system modeling. Additional experience instructing physics and mathematics classes for undergraduates and overseeing graduate student research programs."
+      - Senior Researcher at the National Renewable Energy Lab with a focus on enhancing physical modeling through integration of physics-based and machine learning methods. Lead developer on large codebases with users from 50+ institutions and 50+ countries. Publications and presentations relating to generative machine learning, renewable resource modeling, and earth system modeling. Proven ability to lead interdisciplinary teams, develop innovative solutions, and communicate complex scientific concepts effectively.
     education:
       - institution: Cornell University
+        highlights:
+          - "Thesis: Analysis of Low-Frequency Climate Variability Through Computational Modeling and Tree-Ring Data Synthesis"
         degree: PhD
         area: Physics
         date:
         start_date: 2016-01
         end_date: 2019-01
         location: Ithaca, NY
-        thesis: Analysis of Low-Frequency Climate Variability Through Computational Modeling and Tree-Ring Data Synthesis
       - institution: Cornell University
+        highlights:
+          - "Thesis: VR Quadcopter Telepresence Proposal"
         degree: MS
         area: Physics
         date:
         start_date: 2012-01
         end_date: 2016-01
         location: Ithaca, NY
-        thesis: VR Quadcopter Telepresence Proposal
       - institution: Georgia Southern University
+        highlights:
+          - "Thesis: Prototyping Method for Bragg-type Atom Interferometers"
+          - "Honors: Magna cum laude, University Honors Program"
         degree: BS
         area: Physics
         date:
         start_date: 2008-01
         end_date: 2012-01
         location: Statesboro, GA
-        thesis: Prototyping Method for Bragg-type Atom Interferometers
-        honors: Magna cum laude, University Honors Program
     experience:
       - company: National Renewable Energy Lab
-        position: Senior Software/Data Engineer
+        position: Senior Researcher / Software Engineer
         date:
         start_date: 2022-01
         end_date: present
         location: Golden, CO
         summary:
+          Lead developer for the National Solar Radiation Database (NSRDB) and Super Resolution for Renewable Energy Resource Data (SUP3R). NSRDB integrates MERRA-2 reanalysis data, GOES satellite observations, and physical modeling to generate high-resolution solar resource data, and has 300,000+ annual users from 50+ countries. SUP3R leverages generative machine learning to produce high-resolution meteorological data, with applications in wind and solar resource data generation and climate projections, and has users from 50+ institutions and 20+ countries.
         highlights:
-          - Lead developer on National Solar Radiation Database project (NSRDB).
-          - Streamlined NSRDB pipeline enabling 5x faster yearly reprocessing runs.
-          - Generalized NSRDB application scope and extended database beyond 60N latitude cap to full polar region.
-          - Added temperature-dependent snowy albedo model to improve accuracy of surface radiation predictions.
-          - Developed cloud property prediction and radiative transport models.
-          - Lead developer on Super Resolution for Renewable Energy Resource Data (SUP3R)
-          - Developed novel GAN-based downscaling methods, for SUP3R project, increasing speed of downscaling 300x over dynamical approaches.
-          - Led applications of this method to generate high-resolution wind resource data over Ukraine, Southeast Asia, and South America.
-          - Publicly released sup3r framework, consisting of comprehensive suite for feature engineering, data handling, model prototyping, training, and inference.
+          - Optimized NSRDB pipeline, reducing reprocessing time by 80%
+          - Extended NSRDB coverage from 60°N to full polar region, broadening its applicability.
+          - Incorporated temperature-sensitive snowy albedo model into NSRDB to improve surface radiation accuracy.
+          - Developed cloud property estimation and radiative transfer models to enhance NSRDB data fidelity.
+          - Publicly released SUP3R framework, consisting of comprehensive suite for feature engineering, data handling, model prototyping, training, and inference.
+          - Developed novel GAN-based downscaling methods for SUP3R project, increasing speed of downscaling 300x over dynamical approaches.
+          - Led applications of SUP3R to generate high-resolution wind resource data over Ukraine, Southeast Asia, and South America from coarse ERA5 inputs.
+          - Applied SUP3R to produce high-resolution climate projections for the US and assess impact of urban heat islands on energy demand.
       - company: Cornell University
         position: Post-Doctoral Fellow
         date:
@@ -63,60 +67,36 @@ cv:
         end_date: 2022-01
         location: Ithaca, NY
         summary:
+          Designed and carried out research in areas of global and regional climate modeling, computer vision, weather forecasting, and COVID modelling.
         highlights:
-          - "Designed and carried out research in areas of computer vision, climatology, weather patterns, and COVID modelling."
-          - "Developed tools for detecting hurricane conditions in satellite images using computer vision techniques."
-          - "Developed AWS interface to allow general public to perform climate simulations."
-          - "Developed and planned hyperlocal weather forecasting system designed to improve winter-storm emergency response and enhance natural disaster coordination for New York state's rural communities."
-          - "Led team of four undergraduate students using this code to perform on-demand weather forecasting for Tompkins County."
-          - "Led research on effect of heat anomalies injected into aquaplanet SSTs and surface fields on polar vortex."
-          - "Built custom compartmental infectious disease model including asymptomatic, symptomatic, hospitalization, and death projections for entire United States."
-          - "Updated and improved complex database of tree ring information from variety of disparate, obscure, and hard-to-access data sources."
-      - company: Independent Researcher
-        position: Data Scientist
-        date:
-        start_date: 2012-01
-        end_date: 2021-01
-        location: Ithaca, NY
-        summary:
-        highlights:
-          - "Designed and built working quadcopter with GPS-enabled navigation, remote control capability, and computer control interfaces."
-          - "Developed Twitch bot to filter offensive content in channels, achieving 98% success rate and currently in use on Twitch channel."
-      - company: Cornell University
-        position: Graduate Teaching Assistant
-        date:
-        start_date: 2012-01
-        end_date: 2019-01
-        location: Ithaca, NY
-        summary:
-        highlights:
-          - "Instructed classes in Climate & Energy, Computer Graphics, Numerical Analysis, and Fundamentals of Physics."
-          - "Prepared examinations and classroom materials."
-          - "Led class projects and lab sessions."
-      - company: Cornell University
-        position: PhD Researcher
-        date:
-        start_date: 2013-01
-        end_date: 2019-01
-        location: Ithaca, NY
-        summary:
-        highlights:
-          - "Designed and carried out research in areas of fluid dynamics, condensed matter, and climate science."
-          - "Developed and implemented numerical models to simulate complex physical systems."
-          - "Analyzed large datasets using statistical and machine learning techniques."
-          - "Published findings in peer-reviewed journals and presented at international conferences."
-    skills:
+          - Developed tools for detecting hurricane conditions in satellite images using computer vision techniques.
+          - Developed AWS interface to allow general public to perform climate simulations.
+          - Planned and developed hyperlocal weather forecasting system designed to improve winter-storm emergency response and enhance natural disaster coordination for New York state's rural communities.
+          - Led team of four undergraduate students using this code to perform on-demand weather forecasting for Tompkins County.
+          - Led research on effect of heat anomalies injected into aquaplanet SSTs and surface fields on polar vortex.
+          - Built custom compartmental infectious disease model including asymptomatic, symptomatic, hospitalization, and death projections for entire United States.
+          - Updated and improved complex database of tree ring information from variety of disparate, obscure, and hard-to-access data sources.
+    Strengths:
       - label: High Performance Computing
-        details: Well versed in distributed systems, job scheduling, and parallel optimization.
+        details: NCAR's Yellowstone/Cheyenne, NREL's Eagle/Kestrel, PBS, SLURM, Linux
       - label: Physics
-        details: Excellent understanding of atmospheric and climate physics.
+        details: Meteorology, Earth Systems, Condensed Matter, Fluid Dynamics
       - label: Programming
-        details: Proficient in Python, Bash, MATLAB, Mathematica, C++, Fortran
-      - label: Machine Learning
-        details: Well versed in TensorFlow, Keras, Scikit-Learn
+        details: Python, Bash, Mathematica, MATLAB, C++, Fortran
+      - label: Python Tools
+        details: Xarray, Scikit-learn, Keras, Cartopy, Tensorflow, Pytorch, Numpy, Pandas, Dask
+      - label: Earth Systems Data / Modeling
+        details: CMIP6, ERA5, HRRR, WRF, CESM
       - label: Mathematics
-        details: Excellent understanding of differential equations, statistics, finite difference methods, calculus, and linear algebra
+        details: Differential Equations, Statistics, Finite Difference Methods, Calculus, Linear Algebra
     publications:
+      - title: On the effectiveness of neural operators at zero-shot weather downscaling.
+        journal: Environmental Data Science.
+        date: April 2025
+        authors:
+          - Saumya Sinha
+          - Brandon Benton
+          - Patrick Emami
       - title: The influence of cloud cover on the reliability of satellite-based solar resource data
         authors:
           - Yu Xie
@@ -234,7 +214,7 @@ cv:
         journal: "Physical Review A"
         date: March 2011
 design:
-  theme: engineeringresumes
+  theme: classic
   page:
     size: us-letter
     top_margin: 2cm
@@ -245,42 +225,41 @@ design:
     show_last_updated_date: true
   colors:
     text: rgb(0, 0, 0)
-    name: rgb(0, 0, 0)
-    connections: rgb(0, 0, 0)
-    section_titles: rgb(0, 0, 0)
+    name: rgb(0, 79, 144)
+    connections: rgb(0, 79, 144)
+    section_titles: rgb(0, 79, 144)
     links: rgb(0, 79, 144)
     last_updated_date_and_page_numbering: rgb(128, 128, 128)
   text:
-    font_family: New Computer Modern
+    font_family: Source Sans 3
     font_size: 10pt
     leading: 0.6em
     alignment: justified
     date_and_location_column_alignment: right
   links:
-    underline: true
-    use_external_link_icon: false
+    underline: false
+    use_external_link_icon: true
   header:
-    name_font_family: New Computer Modern
+    name_font_family: Source Sans 3
     name_font_size: 30pt
     name_bold: true
     photo_width: 3.5cm
     vertical_space_between_name_and_connections: 0.7cm
     vertical_space_between_connections_and_first_section: 0.7cm
     horizontal_space_between_connections: 0.5cm
-    connections_font_family: New Computer Modern
+    connections_font_family: Source Sans 3
     separator_between_connections: ''
     use_icons_for_connections: true
     alignment: center
   section_titles:
     type: with-parial-line
-    font_family: New Computer Modern
+    font_family: Source Sans 3
     font_size: 1.4em
     bold: true
     small_caps: false
     line_thickness: 0.5pt
     vertical_space_above: 0.5cm
     vertical_space_below: 0.3cm
-    line_type: with-full-line
   entries:
     date_and_location_width: 4.15cm
     left_and_right_margin: 0.2cm
@@ -291,7 +270,7 @@ design:
     short_second_row: false
     show_time_spans_in: []
   highlights:
-    bullet: ◦
+    bullet: •
     top_margin: 0.25cm
     left_margin: 0.4cm
     vertical_space_between_highlights: 0.25cm
@@ -301,35 +280,31 @@ design:
     one_line_entry:
       template: '**LABEL:** DETAILS'
     education_entry:
-      main_column_first_row_template: |-
-        **INSTITUTION**
-        *DEGREE in AREA*
-      degree_column_template:
+      main_column_first_row_template: '**INSTITUTION**, AREA'
+      degree_column_template: '**DEGREE**'
       degree_column_width: 1cm
       main_column_second_row_template: |-
         SUMMARY
         HIGHLIGHTS
       date_and_location_column_template: |-
-        *LOCATION*
-        *DATE*
+        LOCATION
+        DATE
     normal_entry:
       main_column_first_row_template: '**NAME**'
       main_column_second_row_template: |-
         SUMMARY
         HIGHLIGHTS
       date_and_location_column_template: |-
-        *LOCATION*
-        *DATE*
+        LOCATION
+        DATE
     experience_entry:
-      main_column_first_row_template: |-
-        **POSITION**
-        *COMPANY*
+      main_column_first_row_template: '**COMPANY**, POSITION'
       main_column_second_row_template: |-
         SUMMARY
         HIGHLIGHTS
       date_and_location_column_template: |-
-        *LOCATION*
-        *DATE*
+        LOCATION
+        DATE
     publication_entry:
       main_column_first_row_template: '**TITLE**'
       main_column_second_row_template: |-
@@ -381,6 +356,6 @@ locale:
     - November
     - December
 rendercv_settings:
-  date: '2025-02-02'
+  date: '2025-04-27'
   render_command:
   bold_keywords: []

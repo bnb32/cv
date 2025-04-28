@@ -1,7 +1,6 @@
 # Brandon N. Benton, PhD's CV
 
 - Email: [brandon.benton@nrel.gov](mailto:brandon.benton@nrel.gov)
-- Location: Seattle, WA, 98106
 - Website: [bnb32.github.io](https://bnb32.github.io/)
 - LinkedIn: [brandonnbenton](https://linkedin.com/in/brandonnbenton)
 - GitHub: [bnb32](https://github.com/bnb32)
@@ -9,7 +8,7 @@
 
 # Summary
 
-Senior Software/Data Engineer at the National Renewable Energy Lab with a record of achievement in data science, machine learning, and scientific computing. Multiple publications and presentations relating to generative machine learning, renewable resource modeling, and earth system modeling. Additional experience instructing physics and mathematics classes for undergraduates and overseeing graduate student research programs.
+Senior Researcher at the National Renewable Energy Lab with a focus on enhancing physical modeling through integration of physics-based and machine learning methods. Lead developer on large codebases with users from 50+ institutions and 50+ countries. Publications and presentations relating to generative machine learning, renewable resource modeling, and earth system modeling. Proven ability to lead interdisciplinary teams, develop innovative solutions, and communicate complex scientific concepts effectively.
 
 # Education
 
@@ -17,78 +16,62 @@ Senior Software/Data Engineer at the National Renewable Energy Lab with a record
 
 - Jan 2016 – Jan 2019
 - Ithaca, NY
+- Thesis: Analysis of Low-Frequency Climate Variability Through Computational Modeling and Tree-Ring Data Synthesis
 
 ## Cornell University, MS in Physics
 
 - Jan 2012 – Jan 2016
 - Ithaca, NY
+- Thesis: VR Quadcopter Telepresence Proposal
 
 ## Georgia Southern University, BS in Physics
 
 - Jan 2008 – Jan 2012
 - Statesboro, GA
+- Thesis: Prototyping Method for Bragg-type Atom Interferometers
+- Honors: Magna cum laude, University Honors Program
 
 # Experience
 
-## National Renewable Energy Lab, Senior Software/Data Engineer
+## National Renewable Energy Lab, Senior Researcher / Software Engineer
 
 - Jan 2022 – present
 - Golden, CO
-- Lead developer on National Solar Radiation Database project (NSRDB).
-- Streamlined NSRDB pipeline enabling 5x faster yearly reprocessing runs.
-- Generalized NSRDB application scope and extended database beyond 60N latitude cap to full polar region.
-- Added temperature-dependent snowy albedo model to improve accuracy of surface radiation predictions.
-- Developed cloud property prediction and radiative transport models.
-- Lead developer on Super Resolution for Renewable Energy Resource Data (SUP3R)
-- Developed novel GAN-based downscaling methods, for SUP3R project, increasing speed of downscaling 300x over dynamical approaches.
-- Led applications of this method to generate high-resolution wind resource data over Ukraine, Southeast Asia, and South America.
-- Publicly released sup3r framework, consisting of comprehensive suite for feature engineering, data handling, model prototyping, training, and inference.
+- Optimized NSRDB pipeline, reducing reprocessing time by 80%
+- Extended NSRDB coverage from 60°N to full polar region, broadening its applicability.
+- Incorporated temperature-sensitive snowy albedo model into NSRDB to improve surface radiation accuracy.
+- Developed cloud property estimation and radiative transfer models to enhance NSRDB data fidelity.
+- Publicly released SUP3R framework, consisting of comprehensive suite for feature engineering, data handling, model prototyping, training, and inference.
+- Developed novel GAN-based downscaling methods for SUP3R project, increasing speed of downscaling 300x over dynamical approaches.
+- Led applications of SUP3R to generate high-resolution wind resource data over Ukraine, Southeast Asia, and South America from coarse ERA5 inputs.
+- Applied SUP3R to produce high-resolution climate projections for the US and assess impact of urban heat islands on energy demand.
 
 ## Cornell University, Post-Doctoral Fellow
 
 - Jan 2020 – Jan 2022
 - Ithaca, NY
-- Designed and carried out research in areas of computer vision, climatology, weather patterns, and COVID modelling.
 - Developed tools for detecting hurricane conditions in satellite images using computer vision techniques.
 - Developed AWS interface to allow general public to perform climate simulations.
-- Developed and planned hyperlocal weather forecasting system designed to improve winter-storm emergency response and enhance natural disaster coordination for New York state's rural communities.
+- Planned and developed hyperlocal weather forecasting system designed to improve winter-storm emergency response and enhance natural disaster coordination for New York state's rural communities.
 - Led team of four undergraduate students using this code to perform on-demand weather forecasting for Tompkins County.
 - Led research on effect of heat anomalies injected into aquaplanet SSTs and surface fields on polar vortex.
 - Built custom compartmental infectious disease model including asymptomatic, symptomatic, hospitalization, and death projections for entire United States.
 - Updated and improved complex database of tree ring information from variety of disparate, obscure, and hard-to-access data sources.
 
-## Independent Researcher, Data Scientist
+# Strengths
 
-- Jan 2012 – Jan 2021
-- Ithaca, NY
-- Designed and built working quadcopter with GPS-enabled navigation, remote control capability, and computer control interfaces.
-- Developed Twitch bot to filter offensive content in channels, achieving 98% success rate and currently in use on Twitch channel.
-
-## Cornell University, Graduate Teaching Assistant
-
-- Jan 2012 – Jan 2019
-- Ithaca, NY
-- Instructed classes in Climate & Energy, Computer Graphics, Numerical Analysis, and Fundamentals of Physics.
-- Prepared examinations and classroom materials.
-- Led class projects and lab sessions.
-
-## Cornell University, PhD Researcher
-
-- Jan 2013 – Jan 2019
-- Ithaca, NY
-- Designed and carried out research in areas of fluid dynamics, condensed matter, and climate science.
-- Developed and implemented numerical models to simulate complex physical systems.
-- Analyzed large datasets using statistical and machine learning techniques.
-- Published findings in peer-reviewed journals and presented at international conferences.
-
-# Skills
-
-- High Performance Computing: Well versed in distributed systems, job scheduling, and parallel optimization.
-- Physics: Excellent understanding of atmospheric and climate physics.
-- Programming: Proficient in Python, Bash, MATLAB, Mathematica, C++, Fortran
-- Machine Learning: Well versed in TensorFlow, Keras, Scikit-Learn
-- Mathematics: Excellent understanding of differential equations, statistics, finite difference methods, calculus, and linear algebra
+- High Performance Computing: NCAR's Yellowstone/Cheyenne, NREL's Eagle/Kestrel, PBS, SLURM, Linux
+- Physics: Meteorology, Earth Systems, Condensed Matter, Fluid Dynamics
+- Programming: Python, Bash, Mathematica, MATLAB, C++, Fortran
+- Python Tools: Xarray, Scikit-learn, Keras, Cartopy, Tensorflow, Pytorch, Numpy, Pandas, Dask
+- Earth Systems Data / Modeling: CMIP6, ERA5, HRRR, WRF, CESM
+- Mathematics: Differential Equations, Statistics, Finite Difference Methods, Calculus, Linear Algebra
 # Publications
+
+## On the effectiveness of neural operators at zero-shot weather downscaling. 
+- April 2025
+- Saumya Sinha, Brandon Benton, Patrick Emami
+- Environmental Data Science.
 
 ## The influence of cloud cover on the reliability of satellite-based solar resource data 
 - Feb 2025
